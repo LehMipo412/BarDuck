@@ -83,3 +83,6 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+/UnityMobile/Library/Artifacts/2a
+/UnityMobile/Library
+/UnityMobile/UserSettings
