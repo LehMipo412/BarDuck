@@ -57,9 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\RevealeTextOnTouch.cs" />
+    <Compile Include="Assets\Scripts\TouchButton.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\MoveMoshe.cs" />
-    <Compile Include="Assets\Scripts\TouchButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
