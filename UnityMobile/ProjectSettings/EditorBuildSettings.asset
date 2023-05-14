@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/First Scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Match3.unity
+    guid: c1ade16387bbd594dac271274b72ed1c
+  - enabled: 1
+    path: Assets/Scenes/Lessons.unity
+    guid: cbbb00d6dece7df428173aa655411c27
+  - enabled: 1
+    path: Assets/Scenes/KindergardenRunner.unity
+    guid: 4160bbdcdd476e74f932d76de5f78a57
+  - enabled: 1
+    path: Assets/Scenes/RunnerGameOverScene.unity
+    guid: f273f83289d72ee4cb154cb8610fc4f9
   m_configObjects: {}

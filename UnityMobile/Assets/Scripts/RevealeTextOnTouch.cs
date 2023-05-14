@@ -6,6 +6,9 @@ using TMPro;
 public class RevealeTextOnTouch : MonoBehaviour
 {
     [SerializeField] GameObject playButton;
+    [SerializeField] GameObject barSkech2;
+    [SerializeField] GameObject barSkech1;
+    [SerializeField] GameObject barSkech3;
     [SerializeField] TMP_Text TitleToReavel;
     [SerializeField] TMP_Text TitleToUpdate;
     [SerializeField] TMP_Text ChangingMassage;
@@ -38,12 +41,17 @@ public class RevealeTextOnTouch : MonoBehaviour
                 {
                     ChangingMassage.color = Color.yellow;
                     ChangingMassage.text = FirstChangingMassage.text;
+                    barSkech1.SetActive(false);
+                    barSkech2.SetActive(barSkech2);
                 }
 
                 if (counter == TitleToReavel.text.Length )
                 {
                     ChangingMassage.color = Color.green;
                     ChangingMassage.text = SecondChangingMassage.text;
+                    barSkech2.SetActive(false);
+                    barSkech3.SetActive(barSkech3);
+
                     playButton.SetActive(playButton);
                 }
 
