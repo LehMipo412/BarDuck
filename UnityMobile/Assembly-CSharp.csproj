@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\KinderGardenRunnerGame\RunnerScript\SingleTonDestroyLocation.cs" />
     <Compile Include="Assets\KinderGardenRunnerGame\RunnerScript\RotateStone.cs" />
     <Compile Include="Assets\Scripts\Match3Script\RealMatch3Scripts\ItemDatabase.cs" />
     <Compile Include="Assets\Scripts\ProtocolInstantioator.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Assets\KinderGardenRunnerGame\RunnerScript\MoveLeft.cs" />
     <Compile Include="Assets\Scripts\Match3Script\RealMatch3Scripts\Row.cs" />
     <Compile Include="Assets\KinderGardenRunnerGame\RunnerScript\JumpAnimation.cs" />
+    <Compile Include="Assets\KinderGardenRunnerGame\GameOverScreen\RetryButton.cs" />
     <Compile Include="Assets\Scripts\TouchButton.cs" />
     <Compile Include="Assets\Scripts\Match3Script\MatchThreeManager.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
@@ -79,8 +81,6 @@
     <Compile Include="Assets\Scripts\Match3Script\RealMatch3Scripts\Tile.cs" />
     <Compile Include="Assets\Scripts\IRLmovementController.cs" />
     <Compile Include="Assets\Scripts\MoveMoshe.cs" />
-    <Compile Include="Assets\KinderGardenRunnerGame\RunnerScript\SingleTonDestroyLocation.cs" />
-    <Compile Include="Assets\KinderGardenRunnerGame\GameOverScreen\RetryButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
